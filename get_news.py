@@ -45,5 +45,4 @@ def lookup(topic):
         output.append(out)
     #new_out=list()
     #new_out.append(output[0])
-    output=output[:7]
     return output
