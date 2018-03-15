@@ -1,4 +1,4 @@
---upgrade
+--upgrade pip
 Flask==0.12.1
 Algorithmia
 twitterscraper
