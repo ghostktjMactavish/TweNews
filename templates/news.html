@@ -35,6 +35,9 @@
 		 {% if item['sentiment'] < 0 %}
 		 <p>NEGATIVE</p>
 		 {% endif %}
+		 {% if item['sentiment'] == 0 %}
+		<p>NEUTRAL</p>
+		{% endif %}
 		  <div class="w3-row">
         <div class="w3-col m8 s12">
 		<p><a href="{{ item['url'] }}">Read More...</a></p>
