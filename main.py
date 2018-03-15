@@ -51,6 +51,7 @@ def sports():
     output=list()
     for ne in news:
         out=dict()
+        sent=sentiment(ne['title'])
         out['title']=ne['title']
         out['description']=ne['description']
         out['url'] =ne['url']
@@ -78,6 +79,7 @@ def entertainment():
     output=list()
     for ne in news:
         out=dict()
+        sent=sentiment(ne['title'])
         out['title']=ne['title']
         out['description']=ne['description']
         out['url'] =ne['url']
@@ -105,6 +107,7 @@ def technology():
     output=list()
     for ne in news:
         out=dict()
+        sent=sentiment(ne['title'])
         out['title']=ne['title']
         out['description']=ne['description']
         out['url'] =ne['url']
