@@ -1,7 +1,6 @@
 import json
 import urllib.parse
 import urllib.request
-import ssl
 import requests
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.poolmanager import PoolManager
