@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>TweNews </title>
+	<meta name="description" content="TweNews App">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+
+
+	<!-- navbar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+
+				<a href="file:///C:/Users/ankita24/Desktop/Ex_files_Creating_a_website_using__Bootstrap/Capturev1.0.jpg" class="navbar-brand">TweNews</a>
+			</div><!--navbar header-->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<a href="" class="btn btn-info navbar-btn navbar-right">put text 3</a>
+			<ul class="nav navbar-nav">
+				<li><a href="#Political">Political News</a>        <!-- use for dropdown of navbar menu hyperlink and headings-->
+				<li><a href="#Tech">Tech News</a>
+				<li><a href="#Sports">Sports News</a>
+					<li><a href="#Entertainment">Entertainment News</a>
+				<li><a href="#feedback">Feedback</a>
+				</ul>
+			</div>
+		</div><!-- end container-->
+	</nav><!-- end nav-->
+	<!-- jumbotron-->
+	<div class="jumbotron">
+		<div class="container text-center">
+		<h1>TweNews App</h1>
+			<p class="text-center">Presenting TweNews, your favourite one stop place for all news and people reactions.</p>      <!-- put descirption of the app-->
+			<div class="btn-group">
+			<a href="" class="btn btn-lg btn-info">Download App</a>
+				<a href="" class="btn btn-lg btn-default">PUT TEXT1</a>
+				<a href="" class="btn btn-lg btn-info">put text2</a>
+
+			</div>
+		</div><!-- end container-->
+	</div><!-- end jumbotron-->
+
+	<div class="container">
+	<section>
+		<div class="page-header" id="feedback">
+
+		<h2>put text 4</h2><small>Check Out The Awesome Feedback</small>
+		</div>
+		<div class="row">
+		<div class="col-lg-3">
+			<blockquote>
+			<p>modify later</p>
+				<footer>add the summary here</footer>
+			</blockquote>
+			</div>
+			<div class="col-lg-3">
+			<blockquote>
+			<p>modify later</p>
+				<footer>add the summary here</footer>
+			</blockquote>
+			</div>
+			<div class="col-lg-3">
+			<blockquote>
+			<p>modify later</p>
+				<footer>add the summary here</footer>
+			</blockquote>
+			</div>
+			<div class="col-lg-3">
+			<blockquote>
+			<p>modify later</p>
+				<footer>add the summary here</footer>
+			</blockquote>
+			</div>
+		</div><!-- end of row-->
+		<div class="page-header" id="feedback">
+
+		<h2>put text 5</h2><small>Check Out The Awesome Feedback</small>
+		</div>
+		<div class="row">
+		<div class="col-lg-3">
+			<blockquote>
+			<p>can also add new row</p>
+				<footer>add the summary here</footer>
+			</blockquote>
+			</div>
+		</div><!-- end of also add row div-->
+		</section>
+
+	</div><!-- end container-->
+
+	<section>
+	<div class="well">
+		</div>
+	</section><!-- grey padding-->
+
+	<!--political news-->
+<div class="container">
+  <section>
+	<div class="page-header" id="Political">
+		<h2>Political News <small> -Impacting Indian Political News </small></h2>
+		</div>
+
+		<div class="carousel slide" id="polimg" data-ride="carousel">
+
+		<ol class="carousel-indicators">
+			<li data-target="#polimg" data-slide-to="0" class="active"></li>
+			<li data-target="#polimg" data-slide-to="1"></li>
+			<li data-target="#polimg" data-slide-to="2"></li>
+			<li data-target="#polimg" data-slide-to="3"></li>
+
+
+			</ol>
+			<div class="carousel-inner">
+			<div class="item active">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/Modi_AP1(2).jpg" class="img-responsive" alt="modi">
+					<div class="carousel-caption">
+				<h3>Political News</h3>
+				<p><a href="{{ url_for('politics')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/cd04y2e4mgviotrhymzim2i0ymy3nzk0yjqzytnhzwe2ncznptmzyza1oti5mgzlmgzjowjlmtdjnmy1mjm4y2vkotcw.jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Political News</h3>
+				<p><a href="{{ url_for('politics')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/1512388147-rahul_gandhi_sonia_gandhi_1.jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Political News</h3>
+				<p><a href="{{ url_for('politics')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/congress-176_(1).jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Political News</h3>
+				<p><a href="{{ url_for('politics')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+			</div>
+		</div><!-- end carousel of polimg-->
+
+	</section>
+	</div>
+
+	<!-- put entrtainment news-->
+
+
+	<div class="container">
+  <section>
+	<div class="page-header" id="Tech">
+		<h2>Tech News <small> -put ent sumary </small></h2>
+		</div>
+
+		<div class="carousel slide" id="techimg" data-ride="carousel">
+
+		<ol class="carousel-indicators">
+			<li data-target="#techimg" data-slide-to="0" class="active"></li>
+			<li data-target="#techimg" data-slide-to="1"></li>
+			<li data-target="#techimg" data-slide-to="2"></li>
+			<li data-target="#techimg" data-slide-to="3"></li>
+
+
+			</ol>
+			<div class="carousel-inner">
+			<div class="item active">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/Tech6.jpg" class="img-responsive" alt="modi">
+				<div class="carousel-caption">
+				<h3>Tech News</h3>
+				<p><a href="{{ url_for('technology')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/Tech1.jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Tech News</h3>
+				<p><a href="{{ url_for('technology')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/Tech7.jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Tech News</h3>
+				<p><a href="{{ url_for('technology')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/Tech3.jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Tech News</h3>
+				<p><a href="{{ url_for('technology')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+				</div>
+		</div><!-- end carousel of polimg-->
+
+	</section>
+	</div>
+
+	<div class="container">
+  <section>
+	<div class="page-header" id="Sports">
+		<h2>Sports News <small> -put ent sumary </small></h2>
+		</div>
+
+		<div class="carousel slide" id="sportimg" data-ride="carousel">
+
+		<ol class="carousel-indicators">
+			<li data-target="#sportimg" data-slide-to="0" class="active"></li>
+			<li data-target="#sportimg" data-slide-to="1"></li>
+			<li data-target="#sportimg" data-slide-to="2"></li>
+			<li data-target="#sportimg" data-slide-to="3"></li>
+
+
+			</ol>
+			<div class="carousel-inner">
+			<div class="item active">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/AP656541372615.jpg" class="img-responsive" alt="modi">
+				<div class="carousel-caption">
+				<h3>Sports News</h3>
+				<p><a href="{{ url_for('sports')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/Usain-Bolt-viaja-para-Franca-para-poder-tratar-da-sua-lesao-com-medico-da-selecao-alema-de-futebol7.jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Sports News</h3>
+				<p><a href="{{ url_for('sports')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/run.jpeg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Sports News</h3>
+				<p><a href="{{ url_for('sports')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+
+
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/sp-nba-a-20151206.jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Sports News</h3>
+				<p><a href="{{ url_for('sports')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+			</div>
+		</div><!-- end carousel of polimg-->
+
+	</section>
+	</div>
+
+	<div class="container">
+  <section>
+	<div class="page-header" id="Entertainment">
+		<h2>Entertainment News <small> -put ent sumary </small></h2>
+		</div>
+
+		<div class="carousel slide" id="entimg" data-ride="carousel">
+
+		<ol class="carousel-indicators">
+			<li data-target="#entimg" data-slide-to="0" class="active"></li>
+			<li data-target="#entimg" data-slide-to="1"></li>
+			<li data-target="#entimg" data-slide-to="2"></li>
+			<li data-target="#entimg" data-slide-to="3"></li>
+
+
+			</ol>
+			<div class="carousel-inner">
+			<div class="item active">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/AP656541372615.jpg" class="img-responsive" alt="modi">
+				<div class="carousel-caption">
+				<h3>Entertainment News</h3>
+				<p><a href="{{ url_for('entertainment')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/Usain-Bolt-viaja-para-Franca-para-poder-tratar-da-sua-lesao-com-medico-da-selecao-alema-de-futebol7.jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Entertainment News</h3>
+				<p><a href="{{ url_for('entertainment')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/run.jpeg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Entertainment News</h3>
+				<p><a href="{{ url_for('entertainment')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+
+
+				<div class="item">
+					<img src="https://raw.githubusercontent.com/coder19992706/Twi-News/master/templates/sp-nba-a-20151206.jpg" class="img-responsive" alt="">
+					<div class="carousel-caption">
+				<h3>Entertainment News</h3>
+				<p><a href="{{ url_for('entertainment')}}"><font color="#FFFFFF">Get Started</font></a></p></div>   <!-- put hyperlink of news-->
+				</div>
+				</div>
+
+		</div><!-- end carousel of polimg-->
+	  <hr>
+
+	  <section>
+	<div class="well">
+		</div>
+	</section><!-- grey padding-->
+
+
+	</section>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
