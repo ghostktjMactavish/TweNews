@@ -1,7 +1,6 @@
 from flask import Flask, flash, redirect, render_template, request, session, url_for
 from get_news import lookup
 from Sentiment import sentiment
-from Twitter import tweet
 import time
 app = Flask(__name__)
 
